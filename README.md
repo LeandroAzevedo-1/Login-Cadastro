@@ -1,4 +1,4 @@
-# Tela de login, tela de cadastro e armazenamento de dados
+# Tela de login | tela de cadastro | armazenamento de dados
 
 ## Tela de login arquivo login.js 
 
