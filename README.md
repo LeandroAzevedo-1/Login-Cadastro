@@ -1,4 +1,4 @@
-# Tela de login | tela de cadastro | armazenamento de dados
+# Tela de login | Tela de cadastro | Armazenamento de dados
 
 ## Tela de login arquivo login.js 
 
@@ -13,7 +13,7 @@
     4º verificação, se o inputSenha for igual a password 
     mudar para text "getAttribute" busca o que esta dentro
                     "setAttribute" envi o comando 
-    se não muda para password
+    se não, muda para password
 
     ```js
         btn.addEventListener("click", () => {
