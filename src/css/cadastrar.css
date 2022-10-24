@@ -94,5 +94,22 @@ body {
     color: #fff;
 }
 
-
+#msgError {
+    text-align: center;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: all .3s ease-in-out;
+}
+#msgSuccess {
+    text-align: center;
+    color: #fff;
+    background-color: #5b9e5b;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: all .3s ease-in-out;
+}
 
