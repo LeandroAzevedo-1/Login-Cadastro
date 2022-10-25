@@ -19,18 +19,22 @@
         <div class="card">
             <h1 class="title-login">Entrar</h1>
 
+            <!--Para fazer a validação se o usuário não estiver cadastrado -->
+            <div id="msgError"></div>
+            
+
             <div class="lebal-float">
                 <input class="inputs-login" type="text" id="usuario" placeholder="" required>
-                <label for="usuario">Usuario</label>
+                <label id="userLabel" for="usuario">Usuario</label>
             </div>
             <div class="lebal-float">
                 <input class="inputs-login" type="password" id="senha" placeholder="" required>
-                <label for="senha">Senha</label>
+                <label id="senhaLabel" for="senha">Senha</label>
                 <i class="bi bi-eye"></i>
             </div>
 
             <div class="justify-center">
-                <button class="btn">Cadastrar</button>
+                <button class="btn" onclick="entrar()">Entrar</button>
             </div>
 
             <div class="justify-center">

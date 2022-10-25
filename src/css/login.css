@@ -110,3 +110,13 @@ hr {
 .link-login:hover {
     color: #272262;
 }
+/* Estilizando a mensagem de erro */
+#msgError {
+    text-align: center;
+    color: #fff;
+    background-color: #ff0000;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    transition: all .3s ease-in-out;
+}
